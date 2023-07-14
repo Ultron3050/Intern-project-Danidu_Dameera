@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="mystyle.css">
+<head> 
+    <style>
+
+#myDIV {
+  height:0px;
+  display: grid;
+  grid-template-columns:auto auto auto;
+  gap: px;
+  padding: 10px;
+  grid: 100px / auto auto auto;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgreen;
+}
+#myDIV div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+ </style> 
+</head>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+    <h1>Project List</h1>
+    <h6> Project Name:</h6>
+        <input type="text" placeholder="Search" id="First_TextBox"> 
+        <i class="fa fa-search"></i>
+        <br>
+        <br>
+        <button onclick="showValue()"> Show </button>
+        <button onclick="loadItem()"> Load/Filter </button>
+        <br>
+        <br>
+        <script src = "First_Js.js">
+            
+        </script>
+
+        <script src = "Second_Js.js">
+
+        </script>
+
+        <script src = "Thrid_Js.js">
+
+        </script>
+    <div id="flex">
+        <div class="flex">
+        <div id="output"></div>
+        
+        
+       
+        <!--<div id="First_TextBox"> </div>-->
+       
+        
+    
+
+        <!--<ul id="output_1"></ul>-->
+    
+    </div>
+</body>
+
+
+</html>
